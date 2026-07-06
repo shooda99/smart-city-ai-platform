@@ -86,6 +86,7 @@ You can ask the AI assistant natural language questions about the accident datas
 
 ### 🚗 Vehicle Analysis
 - Which vehicle is most at fault?
+  
 - Top 5 vehicles responsible for accidents
 
 ### 🚦 Accident Type Analysis
