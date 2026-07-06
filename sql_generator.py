@@ -83,3 +83,4 @@ Now generate SQL for:
    sql = sql.replace("```sql", "")
    sql = sql.replace("```", "")
    return sql
+   
