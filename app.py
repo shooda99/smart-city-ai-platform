@@ -4,7 +4,7 @@ from bigquery_helper import execute_query
 from sql_generator import generate_sql
 import os
 app = Flask(__name__)
-LOOKER_URL = "https://datastudio.google.com/embed/reporting/01279ffd-ee42-4c2a-8f52-38ae62bd336c/page/sGx2F"
+LOOKER_URL = "https://datastudio.google.com/embed/reporting/88fdd655-a18a-4196-b3ee-03e5884b1198/page/Xuy2F"
 
 @app.route("/")
 def home():
