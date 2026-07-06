@@ -27,20 +27,26 @@ BigQuery
 Vertex AI (Summarize Results)
 ↓
 Response
-## Schema
-year
-police_station
-zone
-accident_date
-place_of_occurrence
-road_name
-vehicle_at_fault
-victim
-accident_type
-persons_injured
-persons_killed
-total_persons
-severity
+## 📂 Dataset Schema
+
+The Smart City accident dataset contains the following columns:
+
+| Column Name | Description |
+|-------------|-------------|
+| **year** | Year in which the accident occurred |
+| **police_station** | Police station responsible for the accident location |
+| **zone** | Administrative zone where the accident occurred |
+| **accident_date** | Date of the accident |
+| **place_of_occurrence** | Specific location where the accident happened |
+| **road_name** | Name of the road where the accident occurred |
+| **vehicle_at_fault** | Vehicle identified as responsible for the accident |
+| **victim** | Category or type of victim involved |
+| **accident_type** | Type of accident (e.g., collision, hit-and-run, etc.) |
+| **persons_injured** | Number of people injured in the accident |
+| **persons_killed** | Number of fatalities in the accident |
+| **total_persons** | Total number of people involved in the accident |
+| **severity** | Severity level of the accident (Minor, Serious, Fatal, etc.) |
+
 ## 💬 Example Questions
 
 You can ask the AI assistant natural language questions about the accident dataset. Here are some examples:
