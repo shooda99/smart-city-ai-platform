@@ -8,3 +8,4 @@ def execute_query(sql):
    for row in rows:
        result.append(dict(row))
    return result
+   
